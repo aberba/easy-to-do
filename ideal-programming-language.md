@@ -11,7 +11,7 @@ ideas available to create something better.
 //import whole package
 import std;
 
-import just module from packages
+//import just module from packages
 import std.io;
 
 //import function from module 
@@ -54,17 +54,32 @@ foo(name, age, id);
 name.foo(age, id); // i.e. UFCS, where compiler interpretes as foo(name, age, id);
 name.foo(age); //third argument is the default parameter
 
+//call wihout parenthesis
+void foo(string name){};
+void bar(string name){};
 
+//call functions in chains with or without parenthesis
+name.foo().bar();
+name.foo.bar;
+```
 
+## Loops and or iteration
+```d
 
-//cal wihout parenthesis
-name.foo 
+```
 
+## Structs and Classes(Not certain about implementing Classes ATM)
+```d
+struct Employee {}
+auto e = E();
+e2 = E();
 
-class Student {}
+class Student {
+    construct() {}
+    destruct() {}
+}
+
 Student s = new Student() // or new Student
-
-
-
-
+auto s = new Student();
+s = new Student();
 ```
