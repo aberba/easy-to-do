@@ -4,4 +4,4 @@ I keep updating these ideas when I get new thoughts and I have the time. I don't
 I bring ideas by people all around the world and create something useful out of it :)
 
 # Current Projects
-[Ideal programming language]
+[Ideal programming language](https://github.com/quertiv/easy-to-do/ideal-programming-language) 
