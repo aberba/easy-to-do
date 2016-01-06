@@ -65,7 +65,18 @@ name.foo.bar;
 
 ## Loops and or iteration
 ```d
+string[] names = ["John", "Mike"];
+names2 = ["John", "Mike"];
+foreach(name in names) {
+    write("=> ");
+    writeln(name);
+}
 
+names.each(function(name) {
+    writeln(name);
+});
+
+names.filter!(name) => name is string;
 ```
 
 ## Structs and Classes(Not certain about implementing Classes ATM)
